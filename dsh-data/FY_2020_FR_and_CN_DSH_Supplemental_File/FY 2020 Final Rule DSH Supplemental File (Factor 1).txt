@@ -1,0 +1,27 @@
+2016 cost report number						
+13981	"reflects Maryland, SCH, and rural demo adjustments"					
+						
+Increases from 2016						
+						
+FY	Update	Discharge	Case mix	Other	Total	DSH
+						
+2017	1.0015	1.0021	1.004	1.0714	1.0796	15093
+2018	1.018088	0.9845	1.018	1.03185	1.0528	15891
+2019	1.0185	0.9687	1.005	1.02075	1.0121	16084
+2020	1.031	0.9939	1.005	1.0012	1.0311	16583
+						
+Discharges are for all inpatient hosptials and not just IPPS.						
+Other column includes impact of just IPPS discharges and 						
+  impact of DSH increasing at different rate.						
+						
+						
+Update column is determined as follows:						
+						
+FY	MB	ACA cut	Prod	D&C	Total	
+						
+2017	2.7	0.75	0.3	-1.5	0.15	
+2018	2.7	0.75	0.6	0.4588	1.8088	
+2019	2.9	0.75	0.8	0.5	1.85	
+2020	3.0	0	0.4	0.5	3.1	
+						
+All numbers based on the FY 2020 President's Budget projections and latest MB projections.						

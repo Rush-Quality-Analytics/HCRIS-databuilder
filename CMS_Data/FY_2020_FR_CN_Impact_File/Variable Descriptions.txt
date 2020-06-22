@@ -1,0 +1,59 @@
+FY 2020 Final Rule and Correction Notice IPPS Impact Files	
+"DATA SOURCES FOR THIS FY 2020 RULE IMPACT FILE ARE THE FOLLOWING: MARCH 2019 UPDATE OF FY 2018 MEDPAR,  MARCH 2019 UPDATE OF PROVIDER SPECIFIC FILE, FY2016/FY2017 COST REPORT DATA"	
+Provider Number	6 digit Medicare provider number; the first 2 digits are the state code.
+Name	"Name of Medicare provider from OSCAR.(""blank"" = unknown)"
+Geographic Labor Market Area	The Geographic CBSA location based on OMB's Core Based Statistical Area (CBSA) designations.  The CBSA assignment is based on where the provider is physically located based on SSA state and county code information.  Rural areas are designated by 2-digit SSA state codes.
+Pre-Reclass Labor Market Area  	Pre-reclassification CBSA
+Post-Reclass Labor Market Area	Post-reclassification CBSA for FY 2020
+Payment Labor Market Area 	Payment CBSA (urban or rural) for purposes of determining capital payments &  operating payments (other than wage index)
+FIPS County Code	Federal Information Processing Standard (FIPS) county code.  The FIPS system is used to Identify the county in which provider is geographically located and this field be used in conjunction with the MSA/CBSA crosswalk file.
+REGION	1=NEW ENGLAND; 2=MIDDLE ATLANTIC; 3=SOUTH ATLANTIC; 4=EAST NORTH CENTRAL; 5=EAST SOUTH CENTRAL; 6=WEST NORTH CENTRAL; 7=WEST SOUTH CENTRAL; 8-=MOUNTAIN; 9=PACIFIC; 40=PUERTO RICO
+URGEO	"Large urban, Other Urban or Rural designation of the providers geographic CBSA"
+URSPA	Urban or Rural designation based on payment CBSA
+RECLASS	Reclass Status FY 2020:  N -provider did not reclassify; W -provider reclassified for wage index; L provider reclassified under 1886(d)(8)(B) of the SSA; S-provider redesignated as rural under Sec. 401 of BIPA. 
+FY 2020 Wage Index	"FY 2020 wage index after applying the MGCRB reclassifications, rural floor, adjustments for the Frontier wage index provision and the P.L. 108-173 Sec 505 adjustments where applicable for FY 2020. Wage Index reflects the application of national rural floor budget neutrality required under the Affordable Care Act."
+LUGAR	Provider is located in a Lugar County as defined in 1886(d)(8)(B) of the Act
+Section 401 hospital	A 'YES' denotes urban providers redesignated as rural under CFR 412.103 - Sec 401 of BIPA.
+Section 401 or LUGAR Hospitals with a MGCRB Wage Index Reclass	A 'YES' denotes a hospital that is redesignated as rural under CFR 412.103  (Sec 401 of BIPA) or is located in a Lugar County as defined in 1886(d)(8)(B) of the Act (and did not waive its LUGAR status) AND also is reclassified to another CBSA through the MGCRB for wage index purposes.
+Section 505 eligible	A 'YES' denotes providers eligible  to receive a wage index adjustment under  Sec. 505  of  P.L. 108-173 for  FY 2020
+Section 505 adjustment	Wage adjustment for providers who are eligible to receive a wage index adjustment under Sec. 505 of P.L. 108-173 for FY 2020
+Cost of Living Adjustment	Cost of Living Adjustment factor based on data from the U.S. Office of Personnel Management  for IPPS providers located in Alaska or Hawaii for IPPS operating payments
+Resident to Bed Ratio	Resident to Bed Ratio. Used to determine IME factor for operating IPPS payments
+RDAY	Resident to Average Daily Census (ADC) ratio. Used to calculate the IME adjustment for Capital IPPS
+BEDS	The number of total beds obtained from cost report data.**
+Average Daily Census	Calculated as the ratio of Total Acute Inpatient Days to Total Days in the Cost Reporting Period obtained from cost report data.**
+TCHOP	IME adjustment factor for Operating IPPS
+TCHCP	IME adjustment factor for Capital IPPS
+DSHPCT	Disproportionate Share Hospital Patient Percentage (DPP) as determined from the Medicaid ratio from the March 2019 update of the Provider Specific File (PSF) & the most recent SSA data
+DSHOPP	Estimated FY 2020 Operating Disproportionate Share Hospital (DSH) adjustment. Reflects a 75% reduction to the DSH adjustment required under Section 3333 of the Affordable Care Act
+DSHCPP	FY 2020 Capital Disproportionate Share (DSH) adjustment
+DSH_LY	Estimated FY 2019 Operating Disproportionate Share Hospital (DSH) adjustment. Reflects a 75% reduction to the DSH adjustment required under Section 3333 of the Affordable Care Act
+UCP_ADJ	"FY 2020 Uncompensated Care Payment Factor is the proportion of the additional payment amount for uncompensated care costs that a DSH hospital will receive under the implementation of Section 3133 of the Affordable Care Act. The Uncompensated Care Payment Factor is the hospital's uncompensated care costs relative to all DSH hospital's uncompensated care costs. DSH hospitals are identified as those hospitals that are projected to receive DSH for FY 2020. Note, these amounts do not reflect any changes that may result from the 30-day period after the publication of the final rule for hospitals to review and submit comments on the accuracy of the list of mergers we identified in the final rule."
+UCP Per Claim Amount	"FY 2020 Uncompensated Care Per Claim Amount based on a hospital's assigned Uncompensated Care Payment amount divided by the 3 year claims average based on MedPAR files from FY16-FY18. Per Claim Amount is used in determination of outliers and used in to determine if the SCH is paid on a hospital specific rate or federal rate on a per claim basis. Note, these amounts do not reflect any changes that may result from the 30-day period after the publication of the final rule for hospitals to review and submit comments on the accuracy of the list of mergers we identified in the final rule."
+UCP_ADJ_LY	FY 2019 Uncompensated Care Payment Factor is the proportion of the additional payment amount for uncompensated care costs that a DSH hospital will receive under the implementation of Section 3133 of the Affordable Care Act. The Uncompensated Care Payment Factor is the hospital's uncompensated care costs relative to all DSH hospital's uncompensated care costs. DSH hospitals are identified as those hospitals that are projected to receive DSH for FY 2019.
+UCP Per Claim Amount LY	FY 2019 Uncompensated Care Per Claim Amount based on a hospital's assigned Uncompensated Care Payment amount divided by the 3 year claims average based on MedPAR files from FY15-FY17. Per Claim Amount is used in determination of outliers and used in to determine if the SCH is paid on a hospital specific rate or federal rate on a per claim basis. 
+Operating CCR	Ratio of Medicare operating costs to Medicare covered charges from the March 2019 update of the Provider Specific File (PSF). CCRs do not have the inflation factor applied. 
+Capital CCR	Ratio of Medicare capital costs to Medicare covered charges from the March 2019 update of the Provider Specific File (PSF). CCRs do not have the inflation factor applied. 
+Provider Type 	Type of provider - key:  0=IPPS; 7=Rural Referral Center (RRC); 14= Medicare Dependent Hospital (MDH); 15=MDH/RRC; 16=Sole Community Hospital (SCH); 17=SCH/RRC; 21=Essential Access Community Hospital (EACH); 22=EACH/RRC
+HSP Rate	Hospital Specific Payment (HSP) Rate updated to FY 2020 for SCH providers.  HSP Rate is based on the March 2019 update of the Provider Specific File (PSF).
+BILLS	"Total number of Medicare cases for the provider from the FY 2018 MedPAR, March 2019 update"
+CASETA36	Transfer Adjusted Cases under Grouper V36 and FY 2019 Post-Acute Transfer Policy
+CMIV36	Case Mix Index under Grouper V36 (generally applicable for SCH providers paid under their Hospital Specific Payment rate). 
+TACMIV36	Transfer adjusted Case Mix Index under Grouper V36 and FY 2019 Post-Acute Transfer Policy
+IME_CASETA36	Transfer adjusted cases under Grouper V36 for Medicare Advantage cases submitted by teaching hospitals that receive a fee-for-service IME payment. The IME payment associated with these cases are included in the budget neutrality calculations and in payment modelling.
+IME_TACMIV36	Transfer adjusted Case Mix under Grouper V36 for Medicare Advantage cases submitted by teaching hospitals that received a Fee-for-Service IME payment. These CMIs are included to calculate the IME payments for budget neutrality. 
+CASETA37	Transfer Adjusted Cases under Grouper V37 and FY2020 Post-Acute Transfer Policy
+CMIV37	Case Mix Index under Grouper V37 (generally applicable for SCH providers paid under their Hospital Specific Payment rate). 
+TACMIV37	Transfer adjusted Case Mix Index under Grouper V37 and FY 2020 Post-Acute Transfer Policy
+IME_CASETA37	Transfer adjusted cases under Grouper V37 for Medicare Advantage cases submitted by teaching hospitals that receive a fee-for-service IME payment. The IME payment associated with these cases are included in the budget neutrality calculations and in payment modelling.
+IME_TACMIV37	Transfer adjusted Case Mix under Grouper V37 for Medicare Advantage cases submitted by teaching hospitals that received a Fee-for-Service IME payment. These CMIs are included to calculate the IME payments for budget neutrality. 
+GAF	Post Reclassification Geographic adjustment factor (GAF) for Capital IPPS for FY 2020
+Capital Cost of Living Adjustment	"Capital COLA factor for hospitals located in Alaska and Hawaii, which is based on the applicable operating IPPS COLA factor."
+OUT19F	Estimated operating outlier payments as a percentage of the provider's Federal operating IPPS payments
+COUT19F	Estimated capital outlier payments as a percentage of the provider's Federal capital IPPS payments
+Medicare Percentage	Medicare days as a percent of total inpatient days (not available for all providers) 
+Low Volume Hospital Adjustment	Low volume hospital payment adjustment under Section 1886(d)(12) of the Act as implemented at § 412.101 and based on discharge data as reported on cost reports for hospitals that met the mileage criterion in FY 2019 as indicated in the March 2019 update of the PSF.
+Proxy Value Based Purchasing Adjustment Factor	Proxy payment adjustment for value based purchasing program (Section 1886(o) of the Act) are the final payment adjustment factors from the prior fiscal year.
+Proxy Readmission Adjustment Factor	Proxy payment adjustment for Hospital Readmissions Reduction Program (Section 1886(q) of the Act)” are the final payment adjustment factors from the prior fiscal year. Maryland and Puerto Rico hospitals are exempt from the payment adjustment. 
+Proxy Quality Reduction 	"Value of '1' indicates a hospital that was found not to have submitted quality data in the form and manner based on the March 2019 update of the Provider Specific File (PSF), and therefore was modeled as receiving a reduction to the percentage increase in the market basket index for FY 2020 under §412.64(d)(2). (Note, this variable will not reflect any subsequent adjustments, if any, to this indicator made in the PSF, and may not reflect the hospital’s final determination under the hospital IQR program.)"
+Proxy EHR Reduction	"Value of '1' indicates a hospital that was found not to be a meaningful electronic health record (EHR) user for the applicable EHR reporting period and did not receive an exception based on the March 2019 update of the Provider Specific File (PSF), and therefore was modeled as receiving a reduction to the percentage increase in the market basket index for FY 2020 under §§ 412.64(d)(3)-(4). (Note, this variable will not reflect any subsequent adjustments, if any, to this indicator made in the PSF, and may not reflect the hospital’s final determination under the Promoting Interoperability Program.)"
