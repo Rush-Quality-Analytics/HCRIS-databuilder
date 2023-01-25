@@ -1,0 +1,74 @@
+State_Name,Ssa_State_Cd,State_Abbreviation
+UNKNOWN             ,0,UNKNOWN
+Alabama             ,1,AL
+Alaska              ,2,AK
+Arizona             ,3,AZ
+Arkansas            ,4,AR
+California          ,5,CA
+California          ,55,CA
+California          ,75,CA
+Colorado            ,6,CO
+Connecticut         ,7,CT
+Delaware            ,8,DE
+Washington D.C.     ,9,DC
+Florida             ,10,FL
+Florida             ,68,FL
+Florida             ,69,FL
+Georgia             ,11,GA
+Hawaii              ,12,HI
+Idaho               ,13,ID
+Illinois            ,14,IL
+Illinois            ,78,IL
+Indiana             ,15,IN
+Iowa                ,16,IA
+Iowa                ,76,IA
+Kansas              ,17,KS
+Kansas              ,70,KS
+Kentucky            ,18,KY
+Louisiana           ,19,LA
+Louisiana           ,71,LA
+Maine               ,20,ME
+Maryland            ,21,MD
+Maryland            ,80,MD
+Massachusetts       ,22,MA
+Michigan            ,23,MI
+Minnesota           ,24,MN
+Minnesota           ,77,MN
+Mississippi         ,25,MS
+Missouri            ,26,MO
+Montana             ,27,MT
+Nebraska            ,28,NE
+Nevada              ,29,NV
+New Hampshire       ,30,NH
+New Jersey          ,31,NJ
+New Mexico          ,32,NM
+New York            ,33,NY
+North Carolina      ,34,NC
+North Dakota        ,35,ND
+Ohio                ,36,OH
+Ohio                ,72,OH
+Oklahoma            ,37,OK
+Oregon              ,38,OR
+Pennsylvania        ,39,PA
+Pennsylvania        ,73,PA
+Puerto Rico         ,40,PR
+Rhode Island        ,41,RI
+South Carolina      ,42,SC
+South Dakota        ,43,SD
+Tennessee           ,44,TN
+Texas               ,45,TX
+Texas               ,67,TX
+Texas               ,74,TX
+Utah                ,46,UT
+Vermont             ,47,VT
+Virgin Islands      ,48,VI
+Virginia            ,49,VA
+Washington          ,50,WA
+West Virginia       ,51,WV
+Wisconsin           ,52,WI
+Wyoming             ,53,WY
+American Samoa      ,64,AS
+Guam                ,65,GU
+Other               ,99,OTHER
+Texas               ,67,TX
+Florida             ,68,FL
