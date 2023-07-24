@@ -8,20 +8,12 @@ We democratized insights into hospital cost report data by developing this publi
 
 ## Files & Directories
 
-<details><summary>generate_filtered_PUF_df.ipynb</summary>
-This Jupyter notebook file is used to filter large relational database files for specific cost report features related to payments and penalties under the Hospital Acquired Conditions Reduction Program (HACRP), the Hospital Value-Based Purchasing (HVBP) Program, and the Hospital Readmissions Reduction Program (HRRP). The relational database files are too large to include in this repository, so the user must acquire them from the [CMS website](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Cost-Reports-by-Fiscal-Year). This file generates the `FilteredEngineeredPUF_p5.pkl` file, which is later used by the `generate_main_df.ipynb` file to generate hospital-specific cost reports.
-</details>
-
 <details><summary>generate_main_df.ipynb</summary>
-This Jupyter notebook file is used to aggregate freely, publicly available SAS database files from the CMS website for the HCRIS [Hospital 2552-2010 form] (https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Hospital-2010-form). These files are combined with the `FilteredEngineeredPUF_p5.pkl` file described above, and are also combined with files on general hospital characteristics and geographical data. The SAS database files used by this jupyter notebook are too large to include in this repository; the user must acquire them from the [CMS site for the Hospital 2552-2010 form](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Hospital-2010-form). The results of running this file are 1) a large dataframe containing all data for all hospital across all years from 2010 to present, and 2) >6,800 hospital-specific cost reports.
+This Jupyter notebook file is used to aggregate freely, publicly available SAS database files from the CMS website for the HCRIS [Hospital 2552-2010 form] (https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Hospital-2010-form). These files are combined with files on general hospital characteristics and geographical data. The SAS database files used by this jupyter notebook are too large to include in this repository; the user must acquire them from the [CMS site for the Hospital 2552-2010 form](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Cost-Reports/Hospital-2010-form). The results of running this file are 1) a large dataframe containing all data for all hospital across all years from 2010 to present, and 2) >6,800 hospital-specific cost reports.
 </details>
 
 <details><summary>provider_data</summary>
 This directory contains >6,800 hospital-specific cost reports. Because hospital names often change, each cost report file corresponds to a single CMS hospital ID number. Each ID number can correspond to multiple hospitals that existed between 2010 and the present.
-</details>
-
-<details><summary>Filtered_PUF_data</summary>
-This directory contains a single file, `FilteredEngineeredPUF_p5.pkl`. This file results from running the `generate_filtered_PUF_df.ipynb` and contains information or data not contained in CMS HCRIS SAS database files (e.g., payments and/or penalties associated with HACRP, HVBP, HRRP).
 </details>
 
 <details><summary>GeoData</summary>
